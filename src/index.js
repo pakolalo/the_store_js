@@ -17,7 +17,7 @@ const main = async() => {
         `;
     }).join('');
     let newItem = document.createElement('section');
-    newItem.classList.add('items');
+    newItem.classList.add('Items');
     newItem.innerHTML = output;
     $app.appendChild(newItem);
 }
